@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Add a New Request </h2>
+<form method="post" action="/ERS_Servlets/EmpReq">
+<label for="remType">Select type of Reimbursement</label>
+<select name="remType">
+<option value="FOOD">FOOD</option>
+<option value="TRAVEL">TRAVEL</option>
+<option value="LODGING">LODGING</option>
+</select>
+<br/>
+<label for="Description">Select type of Reimbursement</label>
+<textarea rows="5" cols="20" name="description" placeholder="Enter the Description"></textarea>
+<br/>
+<label for="amount">Enter Amount</label>
+<input type="number" name="amount" placeholder="Enter Amount"/>
+<br/>
+<input type="submit" value="Submit"/>
+</form>
+</body>
+</html>
